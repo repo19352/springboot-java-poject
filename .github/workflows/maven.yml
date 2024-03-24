@@ -19,7 +19,7 @@ jobs:
     - name: compile
       run: mvn clean compile 
     - name: test
-      run: mvn clean compile 
+      run: mvn clean test 
     - name: package
       run: mvn clean package --file pom.xml 
     
